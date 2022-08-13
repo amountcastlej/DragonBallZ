@@ -1,0 +1,122 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    align-items: center;
+    background-color: #53007E;
+    color: white;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#logo{
+    color: white;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+
+#nav li {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+
+.wrapper{
+    background-color: #93A2E8;
+    /* border: 3px solid black; */
+    min-height: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#poke-team{
+    display: block;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+}
+
+#title{
+    color: white;
+}
+
+#desc{
+    color: white;
+    font-size: 16px;
+    width: 544px;
+}
+
+.character-info{
+    background-color: white;
+    border: 2px solid white;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.card{
+    background-color: #93A2E8;
+    border: 1px solid pink;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.player{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    width: 350px;
+
+}
+
+.main-character{
+    display: block;
+    margin: 10px auto;
+    height: 250px;
+}
+
+.bio{
+    margin: 20px auto;
+}
+
+.main-bio{
+    margin: 0 auto;
+    margin-top: 50px
+}
+
+.title {
+    text-align: center;
+}
+
+.personInfo{
+    margin: 10px 20px;
+}
+
+.footer {
+    align-items: center;
+    background-color: #53007E;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#showTitle{
+    color: white;
+}
